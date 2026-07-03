@@ -6,9 +6,9 @@ local chat_send = minetest.chat_send_player
 local colorize = minetest.colorize
 
 -- Settings
-local LIMIT = 2000
-local WARNING_ZONE = 1950
-local PUSH_BACK = 15
+local LIMIT = 250
+local WARNING_ZONE = 240
+local PUSH_BACK = 10
 local TICK_RATE = 0.8 -- Check every 0.8 seconds (even lighter on CPU)
 
 -- Variables
